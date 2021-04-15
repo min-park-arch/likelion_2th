@@ -1,0 +1,53 @@
+body {
+    font-size: 16px;
+    font-weight: 400px;
+    color: darkgray;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.header {
+    background-color: #003876;
+}
+
+.header .inner {
+    max-width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.left_menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    float: left;
+
+}
+
+.left_menu li a {
+    display: block;
+    padding: 10px;
+    
+}
+
+.right_menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    float: right;
+}
+
+.right_menu li a {
+    display: block;
+    padding: 10px;
+    
+}
+
+.inner :after {
+    content: "";
+    clear: both;
+    display: block;
+}
